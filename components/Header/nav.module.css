@@ -1,0 +1,19 @@
+.nav {}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

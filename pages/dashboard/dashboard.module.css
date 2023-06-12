@@ -1,0 +1,17 @@
+.product_conntainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product_conntainer div {
+    background-color: aliceblue;
+}
+
+.product_conntainer img {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    min-width: 100%;
+
+}
